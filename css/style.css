@@ -1,0 +1,398 @@
+.fl{float: left;}
+.fr{float: right;}
+.clear{zoom:1;}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+*{margin: 0;padding: 0;}
+#warp{
+	width: 1920px;
+	height: 1300px;
+	background: #ccc;
+}
+#head{
+	width: 1920px;
+	height: 57px;
+	background-image: url(../img/head.jpg);
+}
+/*strat left*/
+#left{
+	width: 180px;
+	height: 1004px;
+	background-image: url(../img/left.jpg);
+	position: relative;
+	z-index: 11;
+}
+.btn{
+	width: 84px;
+	height: 84px;
+	transition:0.35s;
+	cursor: pointer;
+}
+#btn0{
+	background: url(../img/btn.png);
+	position: absolute;
+	top: 140px;
+	left: 50px;
+}
+#btn1{
+	background: url(../img/btn.png) -84px 0px no-repeat;
+	position: absolute;
+	top: 221px;
+	left: 50px;
+	opacity: 0.5;
+}
+#btn2{
+	background: url(../img/btn.png) -168px 0px no-repeat;
+	position: absolute;
+	top: 303px;
+	left: 50px;
+	opacity: 0.5;
+}
+#btn3{
+	background: url(../img/btn.png) -252px 0px no-repeat;
+	position: absolute;
+	top: 386px;
+	left: 50px;
+	opacity: 0.5;
+}
+#btn4{
+	background: url(../img/btn.png) -336px 0px no-repeat;
+	position: absolute;
+	top: 468px;
+	left: 50px;
+	opacity: 0.5;
+}
+#twitter{
+	width: 96px;	
+	height: 25px;
+	// background-color: #262626;
+	// background-color: #0f423f;
+	position: absolute;
+	top: 599px;
+	left: 43px;
+	cursor: pointer;
+}
+#twitter1{
+	width: 48px;
+	height: 25px;
+	background: url(../img/Twitter1.png) 17px 4px no-repeat;
+	background-color:  #262626;
+	transition:0.35s;
+}
+#twitter2{
+	width: 48px;
+	height: 25px;
+	background: url(../img/Twitter2.png) 17px 4px no-repeat;
+	background-color:  #262626;
+	transition:0.35s;
+}
+
+/*end left*/
+
+/*---right主要内容开始---*/
+#right{
+	width: 1740px;
+	height: 1004px;
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+#main{
+	width: 1740px;
+	height: 1004px;
+	overflow: hidden;
+	position: relative;
+}
+#pic{
+	width: 8700px;
+	height: 1004px;
+	position: absolute;
+}
+#pic img{
+	float: left;
+	width: 1740px;
+	height: 1004px;
+}
+
+/*---bg1--*/
+#imme1{
+	width: 306px;
+	height: 90px;
+	background-image: url(../img/imme_btn1.png);
+	position: absolute;
+	top: 370px;
+	left: 70px;
+	transition:0.5s;
+	cursor: pointer;
+}
+#video1{
+	width: 357px;
+	height: 297px;
+	background-image: url(../img/video1.png);
+	position: absolute;
+	top: 430px;
+	left: 70px;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+/*---bg2--*/
+#bg2_lbtn{
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/play_btn1.png);
+	position: absolute;
+	top: 573px;
+	left: 2120px;
+	cursor: pointer;
+}
+#bg2_rbtn{
+	width: 22px;
+	height: 22px;
+	background: url(../img/play_btn1.png) 236px 0;
+	position: absolute;
+	top: 573px;
+	left: 2336px;
+	cursor: pointer;
+}
+#video2{
+	width:165px;
+	height:165px;
+	background: url(../img/play.png) 0px 0px;
+	position: absolute;
+	top: 495px;
+	left: 2160px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+#des2{
+	width:343px;
+	height:66px;
+	background: url(../img/cut_font1.png) 60px 0 no-repeat;
+	position: absolute;
+	top: 660px;
+	left: 2072px;
+}
+#imme2{
+	width:306px;
+	height:90px;
+	background: url(../img/imme_btn1.png);
+	position: absolute;
+	top: 735px;
+	left: 2090px;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+/*---bg3--*/
+#video3{
+	width:165px;
+	height:165px;
+	background: url(../img/play.png) -330px 0px;
+	position: absolute;
+	top: 360px;
+    left: 3722px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#imme3{
+	width:306px;
+	height:90px;
+	background: url(../img/imme_btn1.png);
+	position: absolute;
+	top: 620px;
+	left: 3652px;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+/*---bg4--*/
+#bg4_lbtn{
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/play_btn1.png);
+	position: absolute;
+	top: 520px;
+	left: 5500px;
+	cursor: pointer;
+}
+#bg4_rbtn{
+	width: 22px;
+	height: 22px;
+	background: url(../img/play_btn1.png) 236px 0;
+	position: absolute;
+	top: 520px;
+	left: 5707px;
+	cursor: pointer;
+}
+#video4{
+	width:165px;
+	height:165px;
+	background: url(../img/play.png) -660px 0px;
+	position: absolute;
+	top: 440px;
+	left: 5535px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+#des4{
+	width:154px;
+	height:66px;
+	background: url(../img/cut_font3.png);
+	position: absolute;
+	top: 600px;
+	left: 5542px;
+}
+#imme4{
+	width:306px;
+	height:90px;
+	background: url(../img/imme_btn1.png);
+	position: absolute;
+	top: 682px;
+    left: 5476px;
+    transition:0.5s;
+    cursor: pointer;
+}
+#skill1{
+	width: 56px;
+	height: 56px;
+	background: url(../img/skill.png);
+	position: absolute;
+	top: 482px;
+	left: 5800px;
+	transition:0.5s;
+	cursor: pointer;
+}
+#skill2{
+	width: 56px;
+	height: 56px;
+	background: url(../img/skill.png) -56px 0;
+	position: absolute;
+	top: 505px;
+	left: 5877px;
+	transition:0.5s;
+	cursor: pointer;
+}
+#skill3{
+	width: 56px;
+	height: 56px;
+	background: url(../img/skill.png) -112px 0;
+	position: absolute;
+	top: 465px;
+	left: 5924px;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+/*---bg5--*/
+#video5{
+	width:165px;
+	height:165px;
+	background: url(../img/play.png) -990px 0px;
+	position: absolute;
+	top: 340px;
+	left: 7388px;
+	cursor: pointer;
+    // opacity: 0.5;
+}
+#imme5{
+	width:306px;
+	height:90px;
+	background: url(../img/imme_btn1.png);
+	position: absolute;
+	top: 600px;
+	left: 7317px;
+	transition:0.5s;
+	cursor: pointer;
+}
+
+
+#fix{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.news{
+	width: 129px;
+	height: 50px;
+	background-image: url(../img/news.png);
+	position: absolute;
+	top: 520px;
+	right: -50px;
+	transition:0.3s;
+	cursor: pointer;
+}
+.newshover{
+	width: 440px;
+	height: 247px;
+	background-image: url(../img/news_hover.png);
+	position: absolute;
+	top: 322px;
+	right: -50px;
+	transition:0.3s;
+	cursor: pointer;
+}
+
+.off{
+	width: 129px;
+	height: 49px;
+	background-image: url(../img/official.png);
+	position: absolute;
+	top: 570px;
+	right: -50px;
+	transition:0.5s;
+	cursor: pointer;
+}
+.offhover{
+	width: 517px;
+	height: 155px;
+	background-image: url(../img/official_hover.png);
+	position: absolute;
+	top: 467px;
+	right: -50px;
+	transition:0.5s;
+	cursor: pointer;
+}
+.toggle{
+	width: 105px;
+	height: 50px;
+	position: absolute;
+	top: 640px;
+	right: 0px;
+}
+.toggle #btnL{
+	width: 53px;
+	height: 50px;
+	background-image: url(../img/toggle1.png);
+	color: #224a4a;
+	// color: #06baab;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.toggle #btnR{
+	width: 52px;
+	height: 50px;
+	background-image: url(../img/toggle2.png);
+	color: #224a4a;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*--right主要内容结束--*/
+
+#footer{
+	width: 1920px;
+	height: 239px;
+	background-image: url(../img/footer.jpg);
+}
